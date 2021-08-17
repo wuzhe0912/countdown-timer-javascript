@@ -47,41 +47,34 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'xugaoyi', // 必需
-    link: 'https://github.com/xugaoyi', // 可选的
+    name: 'Pitt Wu', // 必需
+    link: 'https://github.com/wuzhe0912', // 可选的
   },
   blogger: {
-    // 博主信息，显示在首页侧边栏
+    // Personal info
     avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
     name: 'Evan Xu',
-    slogan: '前端界的小学生',
+    slogan: 'Can tell some story and coding.',
   },
   social: {
-    // 社交图标，显示于博主信息栏和页脚栏
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
         iconClass: 'icon-youjian',
-        title: '发邮件',
-        link: 'mailto:894072666@qq.com',
+        title: 'Mail',
+        link: 'kgb00128@gmail.com',
       },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/xugaoyi',
-      },
-      {
-        iconClass: 'icon-erji',
-        title: '听音乐',
-        link: 'https://music.163.com/#/playlist?id=755597173',
+        link: 'https://github.com/wuzhe0912',
       },
     ],
   },
   footer: {
-    // 页脚信息
-    createYear: 2019, // 博客创建年份
+    createYear: 2017, // start
     copyrightInfo:
-      'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'Pitt Wu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }
