@@ -10,20 +10,20 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
   // data
-  titleText = "Hello World!";
-  firstName = "Vue.js";
-  secondName = "TypeScript";
+  titleText = 'Hello World!';
+  firstName = 'Vue.js';
+  secondName = 'TypeScript';
   counter = 0;
 
   // mounted
   mounted() {
-    console.log("mounted");
+    console.log('mounted');
   }
 
   // computed
