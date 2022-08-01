@@ -1,12 +1,17 @@
+import { RootState } from './types';
 import Vue from 'vue';
-import Vuex from 'vuex';
+import Vuex, { StoreOptions } from 'vuex';
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
-  state: {},
+const store: StoreOptions<RootState> = {
+  state: {
+    helloMessage: 'Hello this store state!',
+  },
   getters: {},
   mutations: {},
   actions: {},
   modules: {},
-});
+};
+
+export default new Vuex.Store<RootState>(store);
